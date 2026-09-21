@@ -1,0 +1,16 @@
+# Local environment and credential files
+.env
+.env.*
+!.env.example
+*secret*
+*token*
+*cookie*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
